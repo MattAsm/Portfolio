@@ -1,23 +1,32 @@
 header{
+    margin: -22px -8px 0 -8px;
 background-color: #191919;
 }
 
 footer{
+    margin: 0 -8px -15px -8px;
     background-color: #191919;
 }
 
 body{
     background-color: black;
     color:#e4e4e4;
+    text-align: center;
+}
+
+main h1{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
 }
 
 button{
     border-radius: 7px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 html{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 img{
@@ -25,6 +34,27 @@ img{
     border: 1px solid whitesmoke;
 }
 .Logo{
-border:0px;
-border-radius: 2px;
+    float:left;
+    margin-right:-100%;
+    border:0px;
+    border: hidden;
+}
+.Logo:hover{
+outline: 1px solid whitesmoke;
+}
+header a:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+footer a:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+
+main img:hover{
+    border: 2px solid white;
+}
+main h1:hover{
+    outline: 2px solid white;
+    border-radius: 20px;
 }
