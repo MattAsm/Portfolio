@@ -87,3 +87,20 @@ main h1:hover{
     outline: 2px solid white;
     border-radius: 20px;
 }
+
+#box{
+    color: black;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 200px;
+    font-size: 12em;
+    animation-name: slideToLeft;
+    animation-duration: 3s;
+}
+
+@keyframes slideToLeft{
+    from{transform: translateX(500px)}
+}

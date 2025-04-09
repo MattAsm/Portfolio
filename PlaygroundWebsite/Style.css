@@ -1,0 +1,109 @@
+body{
+    background-color: hsl(0, 0%, 2%);
+    color: whitesmoke;
+    font-family:Helvetica;
+    font-size: 1.5em;
+}
+
+.centerText{
+    text-align: center;
+}
+
+header{
+    margin: -32px -8px 0 -8px;
+    background-color: rgb(3,3,3);
+}
+
+header h1{
+    padding: 10px 0 0 0;
+}
+
+.listOptions ul{
+ background-color: rgb(3,3,3); 
+ list-style-type: none; 
+ padding: 10px 0 0 0;
+ margin: 0px;    
+ overflow: hidden;
+}
+
+.listOptions a{
+  text-decoration: none;
+  color: whitesmoke;
+  text-align: center;  
+  display: block;
+  padding: 5px;
+}
+
+.listOptions li{
+    float: left;
+    border: solid 2px;
+    border-style: outset;
+    border-color:hsl(0, 0%, 2%);
+    text-align:center;
+}
+
+.listOptions li:hover{
+    background-color: black;
+    cursor:pointer;
+}
+
+#countLabel{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+    font-family: helvetica;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: hsl(184, 100%, 82%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: rgb(116, 158, 170);
+}
+
+#rndNum{
+    display: block;
+    font-size: 5em;
+    text-align: center;
+}
+
+#temptingButton{
+    background-color: yellow;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor:pointer;
+    border-radius: 25px;
+    animation: colorCycle;
+}
+
+@keyframes colorCycle{
+0%{
+    box-shadow: 0 0 50px rgb(255, 0, 0);
+}
+33%{
+    box-shadow: 0 0 50px rgb(255, 208, 0);
+}
+66%{
+    box-shadow: 0 0 50px rgb(29, 255, 48);
+}
+100%{
+    box-shadow: 0 0 50px rgb(0, 183, 255);
+}
+}
+
+#temptingButton:hover{
+    animation-name: colorCycle;
+    animation-duration: 3s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+}
