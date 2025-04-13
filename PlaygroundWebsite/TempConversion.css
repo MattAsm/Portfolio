@@ -1,0 +1,77 @@
+body{
+    background-color: hsl(0, 0%, 2%);
+    color: whitesmoke;
+    font-family:Helvetica;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+header{
+    margin: -32px -8px 0 -8px;
+    background-color: rgb(3,3,3);
+}
+
+header h1{
+    padding: 10px 0 0 0;
+}
+
+.listOptions ul{
+    list-style-type: none;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+}
+
+.listOptions a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+.listOptions li{
+    float: left;
+    border: solid 2px;
+    border-color:hsl(0, 0%, 2%);
+    border-style: outset;
+}
+
+.listOptions li:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+#TempBlock{
+    display:inline-block;
+    width: 650px;
+    background-color: rgb(161, 161, 161);
+    color: rgb(0, 0, 0);
+    border: solid 5px;
+    border-style: outset;
+    border-color:hsl(0, 0%, 16%);
+}
+
+#temp{
+    height:50px;
+    width: 150px;
+    font-size: 40px;
+}
+
+#selection1{
+width: auto;
+height : 50px;
+font-size: 40px;
+cursor:pointer;
+}
+#selection2{
+    width: auto;
+    height : 50px;
+    font-size: 40px;
+    cursor:pointer;
+    }
+
+#submitBtn{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    cursor:pointer;
+    border-radius: 7.5px;
+}

@@ -43,7 +43,7 @@ header h1{
 }
 
 .listOptions li:hover{
-    background-color: black;
+    background-color:hsl(0, 0%, 10%);
     cursor:pointer;
 }
 
@@ -106,4 +106,9 @@ header h1{
     animation-duration: 3s;
     animation-direction:alternate-reverse;
     animation-iteration-count: infinite;
+}
+
+#myPassword{
+   width:200px; 
+   text-align:center;
 }

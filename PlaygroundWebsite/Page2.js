@@ -1,58 +1,60 @@
-window.alert("Please listen to that button 🙏");
-/////////////////Check Box Logic
-const myCheckBox = document.getElementById("myCheckBox");
-const visaBtn = document.getElementById("visaBtn");
-const masterCardBtn = document.getElementById("masterCardBtn");
-const payPalBtn = document.getElementById("payPalBtn");
-const mySubmit = document.getElementById("mySubmit");
-const subResult = document.getElementById("subResult");
-const paymentResult = document.getElementById("paymentResult");
+let dialogue = document.getElementById("dialogue");
+const mySubmit = document.getElementById("submitBtn");
 
-mySubmit.onclick = function(){
-    if(myCheckBox.checked)
+const min = 1;
+const max = 1000;
+let answer = Math.floor(Math.random() * (max - min + 1)) + min;
+console.log(`Answer is ${answer}`);
+
+let counter = 0;
+
+mySubmit.onclick = function()
     {
-        subResult.textContent = `You are subscribed! 👍`;
-    }
-    else{
-        subResult.textContent = `You are not subscribed!`;
+        let guess = document.getElementById("numberBox");
+        guess = guess.value;
+        guess = Number(guess);
+        
+            if(isNaN(guess))
+            {
+                dialogue.textContent = `Did you even type a number?`;
+            }
+            else if(guess < 1 || guess > 1000)
+            {
+                dialogue.textContent = "Please stay within the designated number range ;-;";
+            }
+            else if(guess === answer){
+                dialogue.textContent = `${guess} is Correct! Changing Number!`;
+                answer = Math.floor(Math.random() * (max - min + 1)) + min;
+                console.log(`New Random Number is ${answer}`);
+            }
+            else{
+                dialogue.textContent = `${guess} was Incorrect`;
+                counter++;
+                if(counter % 5 == 0)
+                {
+                    dialogue.textContent = `${guess} was Incorrect. Try checking the console 😉`;
+                }
+            }       
     }
 
-    if(visaBtn.checked)
+    /////////////////
+
+    function rollDice()
     {
-        paymentResult.textContent = `You are paying with Visa`;
-    }
-    else if(masterCardBtn.checked)
+        const numOfDice = document.getElementById("numberOfDice").value;
+        const diceResult = document.getElementById("diceResult");
+        const diceImages = document.getElementById("diceImages");
+        const values = [];
+        const images = [];
+
+        for(let i = 0; i < numOfDice; i++)
         {
-            paymentResult.textContent = `You are paying with MasterCard`;
+            const value = Math.floor(Math.random() * 6) + 1;
+            values.push(value);
+            console.log();
+            images.push(`<img src="Dice/${value}.png" style="width:250px;">`);
         }
-    else if(payPalBtn.checked)
-        {
-            paymentResult.textContent = `You are paying with PayPal`;
-        }
-    else{
-        paymentResult.textContent = `You must select a payment option!`;
+
+        diceResult.textContent = `Dice: ${values.join(", ")}`;
+        diceImages.innerHTML = images.join('');
     }
-}
-///////////////////////////////////////
-
-////////////////////Ternary Operator Test
-//let message = x >= 100 ? "You choose a number over 99" : "You choose a number smaller then 100";
-
-////////////////////Method Chaining: Very Cool👍
-
-//let username = window.prompt("Please enter your username");
-
-//username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
-
-//console.log(username);
-
-const temptingButton = document.getElementById("temptingButton");
-let x = 0;
-temptingButton.onclick = function(){   
-do{
-    window.alert("With sore eyes, and tattered hands,")
-    window.alert("I code this poem as something grand.")
-    window.alert("Though in response, visitors may retort,")
-    window.alert("Domain Expansion: Infinite Alert");
-}while(x == 0)
-}
