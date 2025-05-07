@@ -121,37 +121,3 @@ rngButton.onclick = function(){
     num = Math.floor(Math.random() * 10000) + 1;
     rndNum.textContent = num;
 }
-///////////////
-
-/*
-Code for waiting
-setTimeout(function() 
-{}, 3000); this will wait 3 seconds to start
-*/
-
-/*
-To Remember... Array Stuff
-forEach()
-map()
-filter()
-reduce()  Reduce gets a total by summing everything from the array
-*/
-
-// Arrow Function
-
-const hello = (name) => console.log(`Hello ${name}`); 
-hello("Matthew");
-
-
-const number = [1, 2, 3, 4, 5, 6];
-//Map
-const squares = number.map((element) => Math.pow(element, 2));
-console.log(squares);
-
-//Filter
-const evens = number.filter((element) => element % 2 === 0);
-console.log(evens);
-
-//Reduce
-const total = number.reduce((total, element) => total += element)
-console.log(total);
