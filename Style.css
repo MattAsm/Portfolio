@@ -6,6 +6,13 @@ body{
     font-family: Helvetica, sans-serif;
     overflow-x: hidden;
 }
+
+/*
+::-webkit-scrollbar {
+    display: none;
+}
+*/
+
 header{
     margin: -27px -8px 0 -8px;
     background-color: #191919;
