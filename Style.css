@@ -1,12 +1,18 @@
 body{
+    margin: 0;
     background-color: black;
     color:#e4e4e4;
     text-align: center;
     font-family: Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 header{
-    margin: -22px -8px 0 -8px;
+    margin: -27px -8px 0 -8px;
     background-color: #191919;
+}
+
+header img{
+    margin: 1px 10px;
 }
 
 header h1{
@@ -41,7 +47,10 @@ header h1{
 }
 
 footer{
-    margin: 0 -8px -15px -8px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100%;
     background-color: #191919;
 }
 
