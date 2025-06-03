@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKMN Battle</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Pikachu.png ">
+</head>
+<body>
+   <button onclick="setUp()" id="startGameBtn">FIGHT!</button> 
+
+    <div id="loader">
+        <img src="Pokeball.png" alt="Loading Icon" width="250px">
+    </div>
+    <div id="bgmSetting">
+        <p>Music:</p>
+        <button onclick="volumeDown()">-</button>
+        <button onclick="playPause()" id="musicBtn">Pause</button>
+        <button onclick="volumeUp()">+</button>
+    </div>
+    <button id="helpBtn" onclick="helpDisplay()">?</button>
+    <div id="help">
+        <p>
+            <strong>What it this? </strong>You and a CPU are given a random pokemon to duke it out. But this isn't like a regular
+            pokemon battle, type advantages don't exist. You have 4 moves: <strong>Attack, Defend, Bide, and Heal</strong><br><br>
+            <strong>Attack:</strong> A standard attack that takes the greater of the pokemons base Attack or Special Attack
+            to deal damage.<br><br>
+            <strong>Defend:</strong> A blocking move that uses the greater of the pokemons base Defense or Special Defense to
+            protect itself. If the enemies attack is greater then your defense, you take the difference.<br><br>
+            <strong>Heal: </strong> Heal 30 health<br><br>
+            <strong>Bide: </strong> A move that increases your Attack, Defend and Heal by a multiplier. Every use increases the
+            multiplier by x0.2 capping at x2.<br><br>
+            <strong>FAQ: </strong>Base stats are according to the PokeAPI.co API and are assumed to be true to the games. 
+        </p>
+    </div>
+
+<div id="container">
+    <div class="row" id="enemyRow">
+        <div class="stats" id="enemyStats">
+            <p id="enemyName"> Name: Enemy Pikachu</p>
+            <p id="enemyHealth"> HP: 100/100</p>
+            <button id="enemyMove1">Attack</button>
+            <button id="enemyMove2">Defend</button>
+            <br>
+            <button id="enemyMove3">Bide(x1.2)</button>
+            <button id="enemyMove4">Heal</button>
+        </div>
+
+        <div class="pokemonSprite">
+            <img src="" width= "100px" id="enemySprite">
+        </div>
+    </div>
+<hr id="divider">
+    <div class="row" id="playerRow">
+        <div class="pokemonSprite">
+            <img src="" width= "100px" id="playerSprite">
+        </div>
+        
+        <div class="stats" id="playerStats">
+            <p id="playerName"> Name: Your Pikachu</p>
+            <p id="playerHealth"> HP: 100/100</p>
+            <button id="move1">Attack</button>
+            <button id="move2">Defend</button>
+            <br>
+            <button id="move3">Bide (x1)</button>
+            <button id="move4">Heal</button>
+        </div>
+    </div>
+</div>
+
+<p id="footer">&copy; 2025 M. Asmunt - All rights Reserved</p>
+<audio controls id="BGM">
+<source src="Battle!Trainer.mp3" type="audio/mpeg"></sourcesrc>
+</audio> 
+
+    <script src="script.js"></script>
+</body>
+</html>

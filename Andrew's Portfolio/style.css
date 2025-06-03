@@ -1,0 +1,70 @@
+body{
+    margin: 50px;
+    background-color:#ed9de1;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#linkTree{
+    padding: 40px;
+    background-color:#E77FD8;
+    display: flex;
+    flex-direction: column;
+    align-self:center;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 15px black;
+}
+
+#picture{
+border:none;
+border-radius: 200px;
+}
+
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 200%;
+}
+
+#links a{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin: 15px;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: rgb(255, 162, 0);
+}
+
+#links a:hover{
+    background-color: hsl(38, 100%, 54%);
+    box-shadow: 2px 2px 0px  hsl(38, 100%, 34%);
+}
+
+#links a:active{
+    background-color: rgb(206, 130, 0);
+}
+
+.icons{
+    width: 40px;
+    height: auto;
+}
+/*
+lavender = #E77FD8
+green = #7FE78D
+
+orange = rgb(255, 162, 0)
+*/
