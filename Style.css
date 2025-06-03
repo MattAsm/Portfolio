@@ -2,15 +2,16 @@ body{
     background-color: black;
     color:#e4e4e4;
     text-align: center;
+    font-family: Helvetica, sans-serif;
 }
 header{
     margin: -22px -8px 0 -8px;
-background-color: #191919;
+    background-color: #191919;
 }
 
 header h1{
-padding: 15px 0 0 0;
-font-size: 40px;
+    padding: 15px 0 0 0;
+    font-size: 40px;
 }
 
 .navbar ul{
@@ -22,10 +23,10 @@ font-size: 40px;
 }
 
 .navbar a{
-padding: 15px;
-display: block;
-text-decoration: none;
-text-align: center;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
 }
 
 .navbar li{
@@ -44,22 +45,16 @@ footer{
     background-color: #191919;
 }
 
-
-
 main h1{
     display: inline-block;
-    width: 200px;
+    width: 300px;
     text-align: center;
 }
 
 button{
     border-radius: 7px;
-    font-family: Helvetica, sans-serif;
 }
 
-html{
-    font-family: Helvetica, sans-serif;
-}
 
 img{
     border-radius: 7px;
@@ -71,18 +66,11 @@ img{
     border:0px;
     border: hidden;
 }
-.Logo:hover{
-outline: 1px solid whitesmoke;
-}
-
-footer a:hover{
-    border: 2px solid rgb(255, 255, 255);
+.Logo:hover, footer a:hover, main img:hover{
+    outline: 1px solid whitesmoke;
 }
 
 
-main img:hover{
-    border: 2px solid white;
-}
 main h1:hover{
     outline: 2px solid white;
     border-radius: 20px;
