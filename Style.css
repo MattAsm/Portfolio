@@ -96,7 +96,7 @@ main h1:hover{
     display:inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 #apps div{
