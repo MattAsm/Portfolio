@@ -91,3 +91,16 @@ main h1:hover{
     outline: 2px solid white;
     border-radius: 20px;
 }
+
+#apps{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#apps div{
+    padding: 15px;
+    margin: 15px;
+    height: 500px;
+}
