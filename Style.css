@@ -89,6 +89,7 @@ img{
 .Logo{
     float:left;
     margin-right:-100%;
+    margin-top: 30px;
     border:0px;
     border: hidden;
 }
