@@ -5,6 +5,7 @@ body{
     text-align: center;
     font-family: Helvetica, sans-serif;
     overflow-x: hidden;
+    min-height: 100vh;
 }
 
 /*
@@ -53,12 +54,8 @@ header h1{
     background-color: rgb(55, 55, 55);
 }
 
-footer{
-    display: flex;
-    justify-content: center;
-    align-self: flex-end;
-    width: 100%;
-    background-color: #191919;
+main{
+    flex-grow: 1;
 }
 
 main h1{
@@ -66,6 +63,16 @@ main h1{
     width: 300px;
     text-align: center;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100%;
+    background-color: #191919;
+    margin-top: auto;
+}
+
 
 button{
     border-radius: 7px;
