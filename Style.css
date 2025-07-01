@@ -6,6 +6,8 @@ body{
     font-family: Helvetica, sans-serif;
     overflow-x: hidden;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 /*
@@ -54,8 +56,9 @@ header h1{
     background-color: rgb(55, 55, 55);
 }
 
-main{
-    flex-grow: 1;
+
+main {
+  flex: 1;
 }
 
 main h1{
