@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    padding: 0;
     background-color: black;
     color:#e4e4e4;
     text-align: center;
@@ -10,24 +11,22 @@ body{
     flex-direction: column;
 }
 
-/*
-::-webkit-scrollbar {
-    display: none;
-}
-*/
-
 header{
-    margin: -27px -8px 0 -8px;
     background-color: #191919;
+    display: flex;
+    flex-direction: column;
 }
 
-header img{
-    margin: 1px 10px;
+.Logo{
+    float:left;
+    border: hidden;
 }
 
 header h1{
-    padding: 15px 0 0 0;
-    font-size: 40px;
+    font-size: 4rem;
+    width: 100vw;
+    display:inline;
+    position: absolute;
 }
 
 .navbar ul{
@@ -86,13 +85,7 @@ img{
     border-radius: 7px;
     border: 1px solid whitesmoke;
 }
-.Logo{
-    float:left;
-    margin-right:-100%;
-    margin-top: 30px;
-    border:0px;
-    border: hidden;
-}
+
 .Logo:hover, footer a:hover, main img:hover{
     outline: 1px solid whitesmoke;
 }
