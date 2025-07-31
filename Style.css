@@ -20,6 +20,7 @@ header{
 .Logo{
     float:left;
     border: hidden;
+    margin: 1px 1px; /*This allows outline around logo to remain clear. Previously got cut off and looked ugly*/
 }
 
 header h1{
