@@ -1,3 +1,6 @@
+/*  This old CSS feels bad looking at it now. Eventually I'll restructure it, and fix bad CSS
+    Maybe even make my portfolio website a react website 💪*/
+
 body{
     margin: 0;
     padding: 0;
@@ -28,6 +31,7 @@ header h1{
     width: 100vw;
     display:inline;
     position: absolute;
+    pointer-events: none;
 }
 
 .navbar ul{
