@@ -1,0 +1,11 @@
+.headerFooter{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    width: 100%;
+    background-color: #191919;
+    margin-top: auto;
+    margin-bottom: auto;
+}
