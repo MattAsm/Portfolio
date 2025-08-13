@@ -19,20 +19,20 @@ function App() {
           <details open>
             <summary className='dropdowns'>React Based Websites</summary>
                 <div id='apps'>
-                  <SiteCard siteName={"Pomodoro App"} URL={"https://mattasm.github.io/PomodoroApp/"} img={"./src/assets/Pomodoro.JPG"} />
-                  <SiteCard siteName={"Memory Game"} URL={"https://mattasm.github.io/MemoryGame/"} img={"./src/assets/MemoryGame.JPG"} />
-                  <SiteCard siteName={"Pokemon Search"} URL={"https://mattasm.github.io/PokemonSearch/"} img={"./src/assets/PkmnSearch.JPG"} />
-                  <SiteCard siteName={"React Playground"} URL={"https://mattasm.github.io/React-Playground/"} img={"./src/assets/ReactPlayground.JPG"} />
+                  <SiteCard siteName={"Pomodoro App"} URL={"https://mattasm.github.io/PomodoroApp/"} img={"./Portfolio/src/assets/Pomodoro.JPG"} />
+                  <SiteCard siteName={"Memory Game"} URL={"https://mattasm.github.io/MemoryGame/"} img={"./Portfolio/src/assets/MemoryGame.JPG"} />
+                  <SiteCard siteName={"Pokemon Search"} URL={"https://mattasm.github.io/PokemonSearch/"} img={"./Portfolio/src/assets/PkmnSearch.JPG"} />
+                  <SiteCard siteName={"React Playground"} URL={"https://mattasm.github.io/React-Playground/"} img={"./Portfolio/src/assets/ReactPlayground.JPG"} />
                 </div>
           </details>
 
           <details open>
             <summary className='dropdowns'>JavaScript Websites</summary>
                 <div id='apps'>
-                  <SiteCard siteName={"Mockup Company Website"} URL={"https://mattasm.github.io/SiteMockUp/"} img={"./src/assets/Mockup.JPG"} />
-                  <SiteCard siteName={"Link Tree"} URL={"https://mattasm.github.io/LinkTreePortfolio/"} img={"./src/assets/AndrewPortfolio.JPG"} />
-                  <SiteCard siteName={"Pokemon Team Builder"} URL={"https://mattasm.github.io/PokemonTeamMaker/"} img={"./src/assets/PKMNTeam.JPG"} />
-                  <SiteCard siteName={"Pokemon Battle (WIP)"} URL={"https://mattasm.github.io/PokemonBattle/"} img={"./src/assets/PkmnBtl.png"} />
+                  <SiteCard siteName={"Mockup Company Website"} URL={"https://mattasm.github.io/SiteMockUp/"} img={"./Portfolio/src/assets/Mockup.JPG"} />
+                  <SiteCard siteName={"Link Tree"} URL={"https://mattasm.github.io/LinkTreePortfolio/"} img={"./Portfolio/src/assets/AndrewPortfolio.JPG"} />
+                  <SiteCard siteName={"Pokemon Team Builder"} URL={"https://mattasm.github.io/PokemonTeamMaker/"} img={"./Portfolio/src/assets/PKMNTeam.JPG"} />
+                  <SiteCard siteName={"Pokemon Battle (WIP)"} URL={"https://mattasm.github.io/PokemonBattle/"} img={"./Portfolio/src/assets/PkmnBtl.png"} />
                 </div>
           </details>
 
