@@ -1,0 +1,23 @@
+#siteImg{
+    height: 400px;
+    border-radius: 15px;
+}
+
+#siteName{
+    color: white;
+    margin: 10px 0;
+}
+
+#siteName:hover{
+    outline: 2px solid whitesmoke;
+    border-radius: 30px;
+}
+
+#siteImg:hover{
+    outline: 2px solid whitesmoke;
+    border-radius: 15px;
+}
+
+#siteCard{
+    margin: 10px;
+}

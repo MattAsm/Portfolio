@@ -1,0 +1,23 @@
+.headerFooter{
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-self: center;
+    background-color: #191919;
+  
+    width: 100vw;
+    min-height: 80px;
+}
+
+.headerFooter h1{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+a{
+    color: yellow;
+}
