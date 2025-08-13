@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div>
-      <a href="https://mattasm.github.io/"><img src={logo} alt="My logo" title='Homepage' id='logo'/></a>
+      <a href="https://mattasm.github.io/Portfolio"><img src={logo} alt="My logo" title='Homepage' id='logo'/></a>
       <Header />
         <main>
           <a href="https://www.linkedin.com/in/matthew-asmunt/" title='LinkedIn' target='_blank'><img src={me} alt="" id='me'/></a>
