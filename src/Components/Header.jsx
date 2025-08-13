@@ -4,7 +4,7 @@ function Header(){
 
     return(
         <div className="headerFooter">
-            <h1>Header</h1>
+            <h1>Matthew Asmunt</h1>
         </div>
     );
 }

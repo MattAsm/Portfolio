@@ -11,3 +11,13 @@
     width: 100vw;
     min-height: 80px;
 }
+
+.headerFooter h1{
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 5px black;
+}
+
+a{
+    color: yellow;
+}

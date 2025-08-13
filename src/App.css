@@ -15,6 +15,17 @@ main{
     align-items: center;
 }
 
+#logo{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 75px;
+}
+#logo:hover{
+  border-radius: 15px;
+  outline: 1px solid white;
+}
+
 #me{
   margin: 10px;
   width: 200px;
@@ -33,4 +44,28 @@ main{
 
 hr{
   width: 100%;
+}
+
+.dropdowns{
+  background-color: #191919;
+  line-height: 2.2em;
+  width: 100vw;
+  height: 75px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#apps a{
+  text-decoration: none;
+}
+
+#apps{
+    display:inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+details{
+  margin-bottom: 2px;
 }

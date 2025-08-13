@@ -7,12 +7,12 @@ function Footer(){
             <h6>Where all good pages come to rest</h6>
             <p>&copy; Copyright Matthew Asmunt <br />
             
-                <a href="https://www.linkedin.com/in/matthew-asmunt/" target="_blank">
+                <a href="https://www.linkedin.com/in/matthew-asmunt/" target="_blank" title='Check out my LinkedIn'>
                     LinkedIn
                 </a>
                  &nbsp;
-                 <a href="https://mattasm.github.io/" target="_blank">
-                    Portfolio
+                 <a href="https://github.com/MattAsm" target="_blank" title='Check out my GitHub'>
+                    GitHub
                 </a>
             </p>
         </div>
